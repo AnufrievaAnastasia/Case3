@@ -1,5 +1,6 @@
-#Developers:
-
+# Developers:
+# Zhuravleva A. (65%)
+# Anufrieva A. ()
 
 language = input("Русский, English, Francais ").lower()
 if language == "русский":
