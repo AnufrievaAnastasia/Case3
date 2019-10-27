@@ -13,6 +13,7 @@ initial_capital = float(input(lc.TXT_INIT_CAPITAL))
 percent = float(input(lc.TXT_PERCENT))
 investment_infusion = float(input(lc.TXT_INVEST_INFUSION))
 
+print(" ")
 for year in range(1, years + 1):
     print(year, lc.TXT_YEAR)
     print("------------------------------------------------------------------------------")
@@ -30,7 +31,7 @@ for year in range(1, years + 1):
         initial_capital = investment_infusion + capital
         print("|", "%3d" % month, "  |", "%19s" % "{0:.2f}".format(capital - sum_per_month), " |",
               "%19s" % "{0:.2f}".format(sum_per_month), " |", "%19s" % "{0:.2f}".format(capital), " |")
-
         month += 1
+    print(" ")
 
 
