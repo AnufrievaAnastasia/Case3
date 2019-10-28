@@ -1,3 +1,5 @@
+# Localization for English.
+
 TXT_CAPITAL_PERIOD = "capital placement period (years): "
 TXT_INIT_CAPITAL = "initial capital ($): "
 TXT_PERCENT = "interest rate (%/month.): "

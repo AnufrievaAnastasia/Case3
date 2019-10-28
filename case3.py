@@ -1,20 +1,28 @@
-# Developers:
-# Zhuravleva A. (65%)
-# Anufrieva A. ()
+"""Case-study #3 Investment report
+The program allows to receive information for several years with a monthly capitalization
+Developers:
+Zhuravleva A. (65%), Anufrieva A. (58%)
 
+"""
+
+# Determine the language of the program.
 language = input("Русский, English, Francais ").lower()
+
 if language == "русский":
     import localru as lc
 elif language == "english":
     import localen as lc
 else:
     import localfr as lc
+
+# Take input from user.
 years = int(input(lc.TXT_CAPITAL_PERIOD))
 initial_capital = float(input(lc.TXT_INIT_CAPITAL))
 percent = float(input(lc.TXT_PERCENT))
 investment_infusion = float(input(lc.TXT_INVEST_INFUSION))
 
 print(" ")
+
 for year in range(1, years + 1):
     print(year, lc.TXT_YEAR)
     print("------------------------------------------------------------------------------")
@@ -22,6 +30,7 @@ for year in range(1, years + 1):
     print("|",lc.TXT_M,"|                      |                      |                      |")
     print("------------------------------------------------------------------------------")
 
+# Calculate the values for the entered interval.
 
     month = 1
 

@@ -1,3 +1,5 @@
+# Localization for Russian language.
+
 TXT_CAPITAL_PERIOD = "Срок размещения капитала (лет): "
 TXT_INIT_CAPITAL = "Начальный капитал ($): "
 TXT_PERCENT = "Процентная ставка (%/мес.): "

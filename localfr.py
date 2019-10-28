@@ -1,3 +1,5 @@
+# Localization for French.
+
 TXT_CAPITAL_PERIOD = "période de placement de capital (année): "
 TXT_INIT_CAPITAL = "capital d'amorçage ($): "
 TXT_PERCENT = "taux d'intérêt (%/mois.): "
